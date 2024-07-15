@@ -47,9 +47,9 @@ export default function Book({ addPerson }) {
                 minLength={5}
                 required
                 className="text-lg p-2 text-slate-900"
-                placeholder="Username to Search"
+                placeholder="Username"
                 onChange={(e) => setInput(e.target.value)}
-                maxLength={10}
+                maxLength={20}
               />
             </div>
 
@@ -61,7 +61,7 @@ export default function Book({ addPerson }) {
                 minLength={5}
                 maxLength={20}
                 className="text-lg p-2 text-slate-900"
-                placeholder="Username to Search"
+                placeholder="Email"
                 type="email"
                 onChange={(e) => setEmail(e.target.value)}
               />

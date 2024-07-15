@@ -47,9 +47,9 @@ export default function EditForm({ setEdit, close, save, editPerson }) {
           <input
             value={name}
             minLength={5}
-            maxLength={10}
+            maxLength={20}
             className="text-lg p-2 text-slate-900"
-            placeholder="Username to Search"
+            placeholder="Enter Name"
             onChange={(e) => {
               setName(e.target.value);
             }}

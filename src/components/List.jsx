@@ -9,7 +9,7 @@ const person = {
 };
 
 export default function List({ persons, deletePerson, editPerson }) {
-  const nothing = <div>NO Items</div>;
+  const nothing = <div className="text-6xl mt-8 text-gray-600">NO Items</div>;
   return (
     <div className="w-[60%] bg-emerald-700 text-white">
       <h1 className="text-5xl text-center my-10">List</h1>
