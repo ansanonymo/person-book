@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.appear {
+  animation-name: scaleup;
+  animation-duration: 0.4ms;
+}
+
+@keyframes scaleup {
+  from {
+    scale: 0;
+  }
+  to {
+    scale: 1;
+  }
+}
